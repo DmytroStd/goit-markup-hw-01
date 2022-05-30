@@ -59,6 +59,9 @@ body {
     color: #2196F3;
 }
 /* main */
+.background {
+    background-color: #FFFFFF;
+}
 .main_content {
     width: 1600px;
     height: 600px;
@@ -89,6 +92,9 @@ body {
     margin-left: 700px;
 }
 /* наши принципы */
+.background {
+
+}
 .we_are1,
 .we_are2,
 .we_are3,
@@ -230,4 +236,51 @@ width: 270px;
     height: 368px;
     left: 1115px;
     top: 1635px;
+}
+/* footer */
+.footer {width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+
+}
+.contacts {
+    width: 231px;
+        height: 81px;
+        left: 215px;
+        top: 2208px;
+}
+.foo_info {
+    list-style-type: none;
+    margin-left: 215px;
+}
+.foo_adres {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2208px;
+    margin-bottom: 9px;
+    
+}
+.foo_contacts {
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2238px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
+    
 }
