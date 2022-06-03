@@ -6,6 +6,7 @@ body {
     height: 2349px;
     margin: 0 auto;
 }
+/*   */
 /* Header */
 .header ul {
     display: inline-block;
@@ -26,7 +27,7 @@ body {
     padding: 32px;
 }
 .menu li {
-    display: inline-block;
+    display: inline-block; 
 }
 .logo {
     margin-left: 215px;
@@ -57,10 +58,12 @@ body {
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
     color: #2196F3;
+    padding-left: 331px;
 }
 /* main */
 .background {
     background-color: #FFFFFF;
+    padding-left: 215;
 }
 .main_content {
     width: 1600px;
@@ -247,13 +250,22 @@ width: 270px;
 }
 .contacts {
     width: 231px;
-        height: 81px;
-        left: 215px;
-        top: 2208px;
+    height: 81px;
+    margin-left: 255px;
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        margin-bottom: 9px;
+        padding-top: 9px;
+       
 }
 .foo_info {
     list-style-type: none;
     margin-left: 215px;
+    
 }
 .foo_adres {
     margin-top: 20px;
@@ -265,8 +277,8 @@ width: 270px;
     color: #FFFFFF;
     width: 231px;
     height: 21px;
-    left: 215px;
-    top: 2208px;
+    /* left: 215px;
+    top: 2208px; */
     margin-bottom: 9px;
     
 }
@@ -282,5 +294,16 @@ width: 270px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 9px;
-    
+}
+.logo_2 {
+    padding-left: 40px;
+    margin-left: 215px;
+    margin-top: 60px;
+    background: #2F303A;
+
+    /* width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 2157px;
+    background-color: #2F303A; */
 }
