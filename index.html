@@ -10,19 +10,26 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/styles.css" />
-    <title>Document</title>
+    <title>Web Studio</title>
   </head>
   <body class="body">
     <header class="background">
       <nav class="header">
         <ul class="menu">
           <li>
-            <img
+            <a href="" class="logo"
+              ><span class="web">Web</span><span class="stu1">Studio</span></a
+            >
+            <!-- <img
               class="logo"
               src="/images/LogoWebStudio.jpg"
               alt="LogoWebStudio"
-            />
+            /> -->
           </li>
           <li>
             <a href="/studio"><span class="studio">Студио</span></a>
@@ -30,15 +37,16 @@
           <li><a href="/portfolio">Портфолио</a></li>
           <li><a href="/contacts">Контакты</a></li>
         </ul>
-        <ul class="menu">
-          <li>
-            <a href="mailto:info@devstudio.com"
-              ><span class="mail">info@devstudio.com</span></a
-            >
-          </li>
-          <li><span class="number">+38 096 111 11 11</span></li>
-        </ul>
       </nav>
+      <ul class="menu">
+        <li>
+          <a href="mailto:info@devstudio.com"
+            ><span class="mail">info@devstudio.com</span></a
+          >
+        </li>
+        <li><span class="number">+38 096 111 11 11</span></li>
+      </ul>
+      <!--вынести почту и телефон из nav, и в стилях (CSS) отформатировать -->
     </header>
     <main class="background">
       <div class="main_content">
@@ -84,13 +92,13 @@
         <h2 class="about">Чем мы занимаемся</h2>
         <ul>
           <li class="pic1">
-            <img src="/images/code.jpg" alt="code" width="370px" />
+            <img src="./images/code.jpg" alt="code" width="370" />
           </li>
           <li class="pic2">
-            <img src="/images/ma.jpg" alt="mobile_apps" width="370px" />
+            <img src="./images/ma.jpg" alt="mobile_apps" width="370" />
           </li>
           <li class="pic3">
-            <img src="/images/design.jpg" alt="design" width="370px" />
+            <img src="./images/design.jpg" alt="design" width="370" />
           </li>
         </ul>
       </div>
@@ -99,50 +107,57 @@
         <ul>
           <li class="m1">
             <img
-              src="/images/Igor_PD.jpg"
+              src="./images/Igor_PD.jpg"
               alt="Igor Product Designer"
               width="270"
             />
-            <h4>Игорь Демьяненко</h4>
-            <h5>Product Designer</h5>
+            <h4 class="name">Игорь Демьяненко</h4>
+            <h5 class="item">Product Designer</h5>
           </li>
           <li class="m2">
             <img
-              src="/images/Olga FD.jpg"
+              src="./images/Olga_FD.jpg"
               alt="Olga Frontend Developer"
               width="270"
             />
-            <h4>Ольга Репина</h4>
-            <h5>Frontend Developer</h5>
+            <h4 class="name">Ольга Репина</h4>
+            <h5 class="item">Frontend Developer</h5>
           </li>
           <li class="m3">
-            <img src="/images/Nick_Mar.jpg" alt="Nick Marketing" width="270" />
-            <h4>Николай Тарасов</h4>
-            <h5>Marketing</h5>
+            <img src="./images/Nick_Mar.jpg" alt="Nick Marketing" width="270" />
+            <h4 class="name">Николай Тарасов</h4>
+            <h5 class="item">Marketing</h5>
           </li>
           <li class="m4">
             <img
-              src="/images/Mikhail_UI_Des.jpg"
+              src="./images/Mikhail_UI_Des.jpg"
               alt="Mikhail UI Design"
               width="270"
             />
-            <h4>Михаил Ермаков</h4>
-            <h5>UI Designer</h5>
+            <h4 class="name">Михаил Ермаков</h4>
+            <h5 class="item">UI Designer</h5>
           </li>
         </ul>
       </div>
     </main>
     <footer class="background">
       <div class="footer">
-        <img
+        <a href="" class="logo_2"
+          ><span class="web">Web</span><span class="stu2">Studio</span></a
+        >
+        <!-- <img
           class="logo_2"
-          src="/images/logo2WebStudio.jpg"
+          src="/images/Logo2WebStudio.jpg"
           alt="LogoWebStudio"
-        />
+        /> -->
         <div class="contacts">
           <address>
-            <span class="foo_adres"> Киев, пр-т Леси Украинки, 26</span><br />
-            info@example.com
+            <span class="foo_adres"
+              ><br />
+              Киев, пр-т Леси Украинки, 26</span
+            >
+            <p>info@example.com</p>
+
             <p>+38 099 111 11 11</p>
             <!--<ul class="foo_info">
               <li class="foo_adres">г. Киев, пр-т Леси Украинки, 26</li>
