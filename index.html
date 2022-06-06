@@ -5,21 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-  </head>
+    <!-- <link rel="stylesheet" href="./styles/main.css" />
+  </head> -->
   <body>
     <!--хэдер-->
     <header>
       <nav>
-        <a href="">WebStudio</a>
-        <ul>
+        <a href="/index.html" lang="en"
+          ><span>Web</span>Studio</a
+        >
+        <ul class="nav">
           <li><a href="">Студия</a></li>
           <li><a href="">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li>+38 096 111 11 11</li>
+      <ul class="header-contacts">
+        <li>
+          <a href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <main>
@@ -32,9 +41,9 @@
         <button type="button">Заказать услугу</button>
       </section>
       <!-- особенности -->
-      <h2>Особенности</h2>
-      <!-- далее будет скрытым заголовком, вставлен в т.ч. для иерархии заголовков  -->
       <section>
+        <h2>Особенности</h2>
+        <!-- далее будет скрытым заголовком, вставлен в т.ч. для иерархии заголовков  -->
         <ul>
           <li>
             <h3>Внимание к деталям</h3>
@@ -102,7 +111,7 @@
         <ul>
           <li>
             <img
-              src="./images/igor_pd.jpg"
+              src="./images/igor-pd.jpg"
               alt="Игорь, продакт-дизайнер"
               width="270"
               height="260"
@@ -112,7 +121,7 @@
           </li>
           <li>
             <img
-              src="./images/olga_fd.jpg"
+              src="./images/olga-fd.jpg"
               alt="Ольга, фронтенд разработчик"
               width="270"
               height="260"
@@ -122,7 +131,7 @@
           </li>
           <li>
             <img
-              src="./images/nick_mar.jpg"
+              src="./images/nick-mar.jpg"
               alt="Николай, маркетинг"
               width="270"
               height="260"
@@ -132,7 +141,7 @@
           </li>
           <li>
             <img
-              src="./images/mikhail_ui_des.jpg"
+              src="./images/mikhail-ui-des.jpg"
               alt="Михаил, дизайнер внешнего вида"
               width="270"
               height="260"
@@ -145,11 +154,14 @@
     </main>
     <!-- футер -->
     <footer>
+      <a href="">WebStudio</a><br />
       <address>
-        <a href="">WebStudio</a><br />
-        г. Киев, пр-т Леси Украинки, 26 <br />
-        info@example.com <br />
-        +38 099 111 11 11
+          <ul>
+              <li><a href="https://goo.gl/maps/YtgKxtTX7qy2pB3RA" target="_blank" rel="noopener nofollow noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+              <!-- <a href="https://goo.gl/maps/YtgKxtTX7qy2pB3RA" target="_blank" rel="no"></a> -->
+              <li><a href="mailto:info@example.com">info@example.com</a></li>
+              <li><a href="tel:+38 099 111 11 11">+38 099 111 11 11</a></li>
+          </ul>
       </address>
     </footer>
   </body>
